@@ -1,31 +1,59 @@
 # Mindworks
 
-## GraphQL
+## How to install
+
+1. Run `composer install`
+2. Make a copy of `.env.example`
+3. Run `php artisan migrate`
+4. Run `php artisan db:seed`
+
+## Screenshots
+
+GraphQL Endpoint
+
+**View All Posts endpoint**
+
+* Pagination
+* Order by column
+
+![View all posts](screenshots/CleanShot%202021-02-10%20at%2013.32.57.png)
 
 
-1. GraphQL Endpoint
+**View Single Post endpoint**
+
+![View Single post endpoint](screenshots/CleanShot%202021-02-10%20at%2012.30.05.png)
 
 
-## View All Posts endpoint
+**Comments endpoint**
+* Pagination
+* Filter by `post_id`
+![Comments endpoint](screenshots/CleanShot%202021-02-10%20at%2013.04.05.png)
 
-![View all posts](./screenshots/CleanShot 2021-02-10 at 13.32.57.png)
+**Search API**
+* Filter by name, email, body
 
-## View Single Post endpoint
+![Search API](screenshots/CleanShot%202021-02-10%20at%2012.07.13.png)
 
-![View Single post endpoint](./screenshots/CleanShot 2021-02-10 at 12.30.05.png)
+![Search API](screenshots/CleanShot%202021-02-10%20at%2012.07.01.png)
 
-## Comments endpoint
+![Search API](screenshots/CleanShot%202021-02-10%20at%2012.06.40.png)
 
-![Comments endpoint](./screenshots/CleanShot 2021-02-10 at 13.04.05.png)
+**Pagination**
+![Pagination](screenshots/CleanShot%202021-02-10%20at%2012.08.28.png)
 
-2. Search API
 
-![Search API](./screenshots/CleanShot 2021-02-10 at 12.07.13.png)
 
-![Search API](./screenshots/CleanShot 2021-02-10 at 12.07.01.png)
 
-![Search API](./screenshots/CleanShot 2021-02-10 at 12.06.40.png)
 
-3. Pagination
 
-![Pagination](./screenshots/CleanShot 2021-02-10 at 12.08.28.png)
+
+
+
+
+
+
+
+
+
+
+
